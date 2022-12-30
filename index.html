@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <title>Text Encrypter - Alura Challenge 1</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="input-container">
+        <header>
+          <img src="assets/logo.png" alt="Alura Logo" />
+          <h1>Encriptador de texto</h1>
+        </header>
+        <main>
+          <textarea placeholder="Ingresa el texto aquí" name="input"></textarea>
+          <small><img src="assets/Vector.png" /> Sólo letras minúsculas sin acento</small>
+          <div class="button-container">
+            <button id="encrypt">Encriptar</button>
+            <button id="decrypt">Desencriptar</button>
+          </div>
+        </main>
+      </div>
+      <div class="output-container">
+        <img src="assets/img.png" alt="Searching for a text" />
+        <textarea class="hidden" placeholder="Ingresa el texto aquí" name="input"></textarea>
+        <h2>Ningún mensaje fue encontrado</h2>
+        <button id="copy" class="hidden">Copiar</button>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+    </div>
+    <footer>
+      <small>
+        2022 &copy; Copyright by Alura Latam. developed by
+        <a target="_blank" href="https://github.com/JDMateus">Juan David Mateus.</a>
+      </small>
+    </footer>
+  </body>
+</html>
